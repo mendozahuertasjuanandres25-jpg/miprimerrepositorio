@@ -2,6 +2,7 @@
   --verde-oscuro: #193D2E;
   --azul-oscuro: #081F42;
   --azul-texto: #192642;
+  --blanco-texto: #3d3939;
   --verde-linea: #D5E3D8;
   --verde-suave: #EDF5EE;
   --fondo: #F7FAF6;
@@ -20,6 +21,14 @@ a { text-decoration: none; color: inherit; }
 .barra {
   background: var(--azul-oscuro);
   border-bottom: 1px solid var(--verde-linea);
+}
+.logo-marca {
+ justify-self: start;
+  width: 68px;
+  height: 68px;
+  object-fit: contain;
+  filter: brightness(1.12) contrast(1.08);
+  display: block;
 }
 .marca-sub { font-size: 10px; line-height: 1.2; color: #ffffff; }
 
